@@ -1,11 +1,11 @@
 async function fetchCount() {
-  const res = await fetch('/functions/demote');
+  const res = await fetch('/api/demote');
   const data = await res.json();
   document.getElementById('count').innerText = data.count;
 }
 
 async function demoteMiguel() {
-  const res = await fetch('/functions/demote', { method: 'POST' });
+  const res = await fetch('/api/demote', { method: 'POST' });
   const data = await res.json();
   document.getElementById('count').innerText = data.count;
 }
