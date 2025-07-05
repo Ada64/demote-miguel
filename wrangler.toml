@@ -1,0 +1,7 @@
+name = "awpstatus-xyz-test"
+compatibility_date = "2024-05-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "demote_miguel"
+database_id = "e2637b23-5342-4347-a5c6-f71f48a69cc8" 
